@@ -6,8 +6,8 @@ ObjTp=FSgntr
 Sgntr=SimplWindow
 RelVrs=4.09.04
 IntStrVrs=2
-MinSMWVrs=4.08.00
-MinTIOVrs=950
+MinSMWVrs=4.08.07
+MinTIOVrs=1037
 MinCresDbVrs=63.06.003
 SavedBy=SMW4.07.03
 ]
@@ -5005,6 +5005,9 @@ H=1
 DsjH=1
 Name=PredictiveIndexAviaSymbols
 ResyncLibId=DSJ
+SmplCInputCue1=Aout 2 OutLevel Mute
+SmplCOutputCue1=Aout 2 OutLevel Mute
+SmplCOutputCue2=Error_message
 ]
 [
 ObjTp=EtU
@@ -5092,12 +5095,13 @@ Nm=Logic
 ObjVer=1
 SmVr=1056
 CF=2
-mC=5
+mC=6
 C1=21
 C2=31
 C3=161
 C4=277
-C5=207
+C5=100
+C6=207
 ]
 [
 ObjTp=Sm
@@ -7758,8 +7762,8 @@ GrpStI7=0
 GrpStI8=0
 GrpStI9=0
 GrpStI10=0
-GrpStI11=4
-GrpStI2012=6
+GrpStI11=3
+GrpStI2012=5
 GrpStI2013=4
 GrpStI4014=6
 GrpStI4015=4
@@ -7799,8 +7803,8 @@ GrpStO7=0
 GrpStO8=0
 GrpStO9=0
 GrpStO10=0
-GrpStO11=4
-GrpStO2012=6
+GrpStO11=3
+GrpStO2012=5
 GrpStO2013=4
 GrpStO4014=6
 GrpStO4015=4
@@ -7868,6 +7872,18 @@ O13=227
 mP=1
 P1=2d
 CedH=7
+]
+[
+ObjTp=Sm
+H=100
+SmC=121
+Nm=Comment
+ObjVer=1
+SmVr=1056
+PrH=4
+CF=2
+mP=1
+P1=slight change
 ]
 [
 ObjTp=Sm
@@ -9862,10 +9878,8 @@ H=208
 SmC=155
 Nm=PredictiveIndexAviaSymbols.umc
 ObjVer=1
-SmVr=1056
 PrH=207
 DsjH=1
-CF=2
 n1I=1
 n1O=2
 SetParamToAddr=True
