@@ -3,7 +3,7 @@ Log/
 
 # ignore the built output
 *_archive.zip
-*_compiled.zip
+# *_compiled.zip
 
 # ignore output files
 *.ASV
